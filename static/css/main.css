@@ -1,1 +1,44 @@
-/* you can add any styles you think could improve user's experience */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: lightgray;
+}
+
+.products {
+  display: flex;
+  margin: 0 auto;
+  background: white;
+}
+.product .addButton {
+  background: purple;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px;
+  color: white;
+  cursor: pointer;
+}
+.product .removeButton {
+  background: red;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px;
+  color: white;
+  cursor: pointer;
+}
+.container-cart {
+  display: flex;
+}
+.container-cart .cart-link {
+  background: green;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 0 6px 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.container-cart .items {
+  display: flex;
+}

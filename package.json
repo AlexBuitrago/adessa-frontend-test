@@ -20,12 +20,13 @@
   },
   "homepage": "https://github.com/aether7/adessa-frontend-test#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "consolidate": "^0.14.5",
     "express": "^4.14.0",
     "handlebars": "^4.0.6",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "redux": "^3.6.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
